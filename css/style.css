@@ -4,3 +4,62 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+:root{
+  --primary-clr: #7C3AED;
+  --primary-hover-clr: #6D28D9;
+  --primary-light-clr: #EDE9FE;
+
+  --primary-bg-clr: #FFFFFF;
+  --secondary-bg-clr: #F8FAFC;
+  --card-bg-clr: #FFFFFF;
+  --border-clr: #E5E7EB;
+
+  --heading-clr: #111827;
+  --para-txt-clr: #374151;
+  --para-secondary-text: #6B7280;
+  --placeholder-txt: #9CA3Af;
+
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --Error: #EF4444;
+  --info: #3B82F6;
+
+  /* category color*/
+  --personal-clr: #8B5CF6;
+  --work: #3B82F6;
+  --study: #10B981;
+  --idea: #F59E0B;
+  --important: #Ef4444;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.2rem;
+  --font-size-lg: 1.44rem;
+  --font-size-xl: 1.728rem;
+  --font-size-2xl: 2.074rem;
+  --font-size-3xl: 2.488rem;
+  --font-size-4xl: 2.986rem;
+
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+
+  --line-height-none: 1;
+  --line-height-tight: 1.2;
+  --line-height-snug: 1.35;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.65;
+}
