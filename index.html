@@ -1,14 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Notes</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-  
-  <script src="js/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="container">
+        <div class="logo">
+          <img
+            class="notes-logo"
+            src="./assets/logo.webp"
+            alt="notes-app-logo"
+          />
+          <span class="logo-name">Notebook</span>
+        </div>
+        <nav>
+          <ul class="navbar">
+            <li class="search">
+              <img class="search-icon" src="./assets/icons8-search-50.png" alt="search-icon">
+              <label for="">
+                <input
+                  type="text"
+                  name=""
+                  id="nav-inpt"
+                  placeholder="Search notes..."
+                />
+              </label>
+            </li>
+            <li>
+              <select name="" id="slect">
+                <option value="">Sort by: Newest</option>
+                <option value="">Personal</option>
+                <option value="">Work</option>
+                <option value="">Idea</option>
+                <option value="">Study</option>
+                <option value="">Important</option>
+              </select>
+            </li>
+            <li>
+              <img class="dark-mode" src="./assets/dark.png" alt="dark-mode" />
+            </li>
+            <li>
+              <img
+                class="light-mode"
+                src="./assets/light.png"
+                alt="light-mode"
+              />
+            </li>
+            <li>
+              <div class="profile"></div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
 </html>
